@@ -7,9 +7,9 @@
 [5. Istalación del paquete](#instalación-del-paquete)  
 [6. Configuración](#configuración)  
 [7. Configuración del servicio dhcp](#configuración-del-servicio-dhcp)  
-[7. Ejercicio 5](#ejercicio-5)  
-[7. Ejercicio 5](#ejercicio-5)  
-[7. Ejercicio 5](#ejercicio-5)  
+[8. Comprobación dhcp](#comprobación-dhcp)  
+[9. Comprobación en el cliente con reserva](#comprobación-en-el-cliente-con-reserva)  
+[10. Comprobación en el cliente sin reserva](#comprobación-en-el-cliente-sin-reserva)  
 [7. Ejercicio 5](#ejercicio-5)  
 [7. Ejercicio 5](#ejercicio-5)      
 
@@ -74,32 +74,44 @@ Acontinuación, vamos ha modificar el archivo dhcpd.conf para configurar el serv
 
 ### Práctica
 
-![copia dhcpd.con](files/Captura6.PNG)
-Realizamos una copia del archivo dhcpd.conf
+![copia dhcpd.conf](files/Captura6.PNG)   
+Realizamos una copia del archivo dhcpd.conf  
+___
+![configuracion_dhcp.conf](files/Captura7.PNG)  
+Configuramos las opciones del dhcp
+___
+![configuracion_de reserva](files/Captura8.PNG)  
+Configuración de la reserva de ip
 
-## Ejercicio
-
-### Enunciado
-
-
-
-### Práctica
-
-## Ejercicio
+## Comprobación dhcp
 
 ### Enunciado
 
-
+Comprobación del estado del servidor dhcp
 
 ### Práctica
 
-## Ejercicio
+![comprobación_dhcp](files/Captura9.PNG) 
+
+## Comprobación en el cliente con reserva
 
 ### Enunciado
 
-
+Comprobación en el cliente con reserva
 
 ### Práctica
+
+![comprobación_reserva](files/Captura10.PNG) 
+
+## Comprobación en el cliente sin reserva
+
+### Enunciado
+
+Comprobación en el cliente sin reserva
+
+### Práctica
+
+![comprobación_cliente](files/Captura11.PNG)
 
 ## Ejercicio
 
