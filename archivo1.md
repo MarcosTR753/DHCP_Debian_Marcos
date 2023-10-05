@@ -2,11 +2,16 @@
 ## Índice
 [1. Introducción](#introducción)  
 [2. Recursos ](#recursos)  
-[3. Ejercicio 1](#ejercicio-1)  
-[4. Ejercicio 2](#ejercicio-2)  
-[5. Ejercicio 3](#ejercicio-3)  
-[6. Ejercicio 4](#ejercicio-4)  
-[7. Ejercicio 5](#ejercicio-5)    
+[3. Configuración de la tarjeta red](#configuración-de-la-tarjeta-red)  
+[4. Cambiar a Superusuario](#cambiar-a-superusuario)  
+[5. Istalación del paquete](#instalación-del-paquete)  
+[6. Configuración](#configuración)  
+[7. Configuración del servicio dhcp](#configuración-del-servicio-dhcp)  
+[7. Ejercicio 5](#ejercicio-5)  
+[7. Ejercicio 5](#ejercicio-5)  
+[7. Ejercicio 5](#ejercicio-5)  
+[7. Ejercicio 5](#ejercicio-5)  
+[7. Ejercicio 5](#ejercicio-5)      
 
 ## Introducción
 Esta actividad consiste en realizar un tutorial en el que se describan los ficheros involucrados y los comandos necesarios para configurar el servidor isc-dhcp-server en Debian.
@@ -20,53 +25,124 @@ o	pfSense
 o	https://github.com/  
 o	Visual Studio Code 
 
-## Ejercicio 1
+## Configuración de la tarjeta red
 
 ### Enunciado
 
-```
-Que estén incluidos todos los pasos necesarios para configurar correctamente el servicio.
-```
+En las captura siguiente se va a mostrar la configuración de la tarjeta de red mediante interfaz grafica.
 
 ### Práctica
 
+![Configuración-de-red](files/Captura1.PNG)
 
-## Ejercicio 2
+## Cambiar a Superusuario
 
 ### Enunciado
 
-```
-Que estén detallados todos los ficheros involucrados y explicados los parámetros para configurar: rango, máscara, puerta de enlace, DNS, sufijo DNS, tiempo de asignación así como la explicación de cómo crear reservas y exclusiones.
-``` 
+Se va ha cambiar a el superusuario para poder instalar el servicio, utilizaremos el comando __su -__
 
 ### Práctica
 
-## Ejercicio 3
+![Cambio-de-usuario](files/Captura2.PNG)
+
+## Instalación del paquete
 
 ### Enunciado
 
-```
-Cómo verificar qué IPs han sido asignadas.
-```
+En este apartado vamos ha instalar el paquete dhcp
 
 ### Práctica
 
-## Ejercicio 4
+![Instalación](files/Captura3.PNG)
+
+## Configuración
 
 ### Enunciado
 
-```
-Archivos de log para realizar la resolución de problemas.
-```
+Configuración de la interfaz por la que va ha escuchar
 
 ### Práctica
 
-## Ejercicio 5
+![Copia](files/Captura5.PNG)
+![Configuración](files/Captura4.PNG)
+
+## Configuración del servicio dhcp
 
 ### Enunciado
 
-```
-Por último realizar un ejemplo práctico en el que se muestre el funcionamiento. NOTA: Debéis personalizar el ejemplo incluyendo vuestro número de clase y nombre para IPs, nombre de dominio, etc.
-``` 
+Acontinuación, vamos ha modificar el archivo dhcpd.conf para configurar el servicio dhcp
+
+### Práctica
+
+![copia dhcpd.con](files/Captura6.PNG)
+Realizamos una copia del archivo dhcpd.conf
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+## Ejercicio
+
+### Enunciado
+
+
+
+### Práctica
+## Ejercicio
+
+### Enunciado
+
+
 
 ### Práctica
