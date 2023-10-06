@@ -128,10 +128,3 @@ Comprobación en el cliente sin reserva
 ### Cliente sin Reserva :
 DHCP
 
-## Ejercicio
-
-### Enunciado
-
-
-
-### Práctica
