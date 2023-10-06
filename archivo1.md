@@ -70,7 +70,7 @@ Configuración de la interfaz por la que va ha escuchar
 
 ### Enunciado
 
-Acontinuación, vamos ha modificar el archivo dhcpd.conf para configurar el servicio dhcp
+A continuación, vamos ha modificar el archivo dhcpd.conf para configurar el servicio dhcp
 
 ### Práctica
 
@@ -101,7 +101,8 @@ Comprobación en el cliente con reserva
 
 ### Práctica
 
-![comprobación_reserva](files/Captura10.PNG) 
+![comprobación_reserva](files/Captura10.PNG)
+![comprobación_reserva_ping](files/Captura12.PNG) 
 
 ## Comprobación en el cliente sin reserva
 
@@ -112,6 +113,7 @@ Comprobación en el cliente sin reserva
 ### Práctica
 
 ![comprobación_cliente](files/Captura11.PNG)
+![comprobación_cliente_ping](files/Captura13.PNG)
 
 ## Ejercicio
 
