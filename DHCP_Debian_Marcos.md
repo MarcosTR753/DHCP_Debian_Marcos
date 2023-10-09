@@ -11,6 +11,7 @@
 [9. Comprobación en el cliente con reserva](#comprobación-en-el-cliente-con-reserva)  
 [10. Comprobación en el cliente sin reserva](#comprobación-en-el-cliente-sin-reserva)  
 [11. IPs](#ips)  
+[12. Logs](#logs) 
     
 
 ## Introducción
@@ -128,3 +129,17 @@ Comprobación en el cliente sin reserva
 ### Cliente sin Reserva :
 DHCP
 
+## Logs
+
+### Enunciado
+
+A continuación, vamos a mostrar las logs en los que el debian almacena los errores
+
+### Práctica
+
+![Logs](files/Captura15.PNG)
+Captura archivo logs.
+![joulnalctl](files/Captura16.PNG)
+Ejecución del comando __journalctl -u isc-dhcp-server__
+![journalctl_2](files/Captura17.PNG)
+Final del comando __journalctl -u isc-dhcp-server__
